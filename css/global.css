@@ -5,6 +5,8 @@
 body {
 	font-size: 62.5%;
 	font-family: 'Inter', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
 
 }
 
@@ -12,5 +14,44 @@ h1 {
 	font-size: 60px;
 	color: #252525;
 }
+
+/* PRIMARY NAVIGATION */
+
+nav {
+	text-transform: uppercase;
+	background: none;
+	font-weight: 400;
+}
+
+.nav-item {
+	border: 1px solid #252525;
+	border-right: none; /*To prevent overlap between borders*/
+	margin: -1px;
+	padding: 0.2em 0.5em 0.2em 0.5em ;
+	width: 100px;
+
+	text-align: center;
+}
+	
+	.nav-item:hover {
+		
+		background: #252525;
+	}
+
+/* To prevent overlap between borders */
+	.nav-end {
+		border-right: 1px solid #252525;;
+	}
+
+.nav-link {
+		color: #252525 !important;
+
+}
+	.nav-link:hover {
+
+		color: #fff !important;
+
+	}
+
 
 
