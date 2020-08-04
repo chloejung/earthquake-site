@@ -52,7 +52,10 @@ h3 {
 }
 
 a {
-	color: #252525;
+		color: #252525;
+}
+a.a-bold {
+
 	font-weight: 700;
 }
 /* IMAGE TREATMENT =========================== */
@@ -141,11 +144,10 @@ nav {
 	position: relative;
 }
 
-.logo-main {
+#logo-main {
 	color: #252525;	
-	font-size: 1em;
-	display: flex;
-	justify-content: flex-start;
+	font-size: 12px;
+	font-weight: 700;
 }
 
 .main-header {
