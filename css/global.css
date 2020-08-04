@@ -230,6 +230,21 @@ div.learn-more {
 		left: -130px;
 	}
 
+#facts-section {
+	margin-top: 40px;
+}
+
+.facts-section-p {
+	padding: 15px;
+	border-top: solid 1px #252525;
+	font-size: 40px;
+
+}
+
+.fact {
+	font-weight: 700;
+	font-size: 45px;
+}
 
 footer {
 	padding-right: 5em;
