@@ -140,7 +140,7 @@ nav {
 
 	vertical-align: middle;
 	padding: 32px;
-	position: relative;
+
 }
 
 #logo-main {
@@ -264,11 +264,21 @@ div.learn-more {
 
 /* PREPARE SECTION =========================== */
 
+#prepare-section {
+		padding: 20px 0;
+}
 tr, td {
 	border:solid 1px #252525 ;
 	padding: 20px;
 }
 
+
+/* EMERG KIT SECTION =========================== */
+
+#emerg-kit-section {
+	background: #dfdfdf;
+	padding: 20px 0;
+}
 
 footer {
 	padding-right: 5em;
