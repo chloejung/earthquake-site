@@ -9,8 +9,10 @@ body {
 	font-weight: 300;
 }
 
+
 .container {
-	width: 100%;
+	margin: 0 auto;
+	width: 90%;
 	padding: 32px;
 }
 
@@ -18,7 +20,8 @@ h1 {
 	font-size: 50px;
 	line-height: 55px;
 	color: #252525;
-	width: 50%;
+
+	margin-top: 50px;
 }
 
 	.accent-text {
@@ -34,9 +37,15 @@ h1 {
 
 .small-header {
 	font-size: 1em;
+
 }
 
+img.hero-img {
+	position: relative;
+	transform: rotate(4deg);
+	width: 460px;
 
+}
 
 /* PRIMARY NAVIGATION */
 
@@ -82,19 +91,27 @@ nav {
 /* JUMBOTRON */
 
 .jumbotron {
-  	height: 550px;
-	  background: #E7C8AB;
+  	height: 700px;
+	background: #E7C8AB;
 	 border-radius: 0;
 
 	vertical-align: middle;
 	padding: 32px;
+	position: relative;
 }
 
 .main-header {
-	padding: 40px 0;
-	margin: 40px 0;
+	padding: 40px 20px;
+	margin: 40px ;
 	border-top: solid 1px #252525;
+	
+
+}
+
+.cta-1 {
 	border-bottom: solid 1px #252525;
+	border-top: solid 1px #252525;
+	padding: 20px 0px 20px 10px;
 }
 
 /* Buttons */
