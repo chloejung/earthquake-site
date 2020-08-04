@@ -40,11 +40,21 @@ h1 {
 
 }
 
+/* IMAGE TREATMENT */
+
 img.hero-img {
 	position: relative;
 	transform: rotate(4deg);
 	width: 460px;
 
+}
+
+#shocks {
+	position: absolute;
+	z-index: 1;
+	margin-left: 40px;
+	top: 120px;
+	right: -70px;
 }
 
 /* PRIMARY NAVIGATION */
