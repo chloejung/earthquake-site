@@ -81,13 +81,12 @@ nav {
 	
 	background: none;
 	font-weight: 400;
-	
-
 }
 
 .navbar {
-
+	padding: 10px 50px;
 }
+
 .nav-right {
 	display: inline-flex;
 	flex-direction: row;
