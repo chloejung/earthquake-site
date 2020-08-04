@@ -11,7 +11,7 @@ body {
 
 
 .container {
-	margin: 0 auto;
+	margin: 20px auto;
 	width: 90%;
 	padding: 32px;
 }
@@ -24,14 +24,15 @@ h1 {
 	margin-top: 50px;
 }
 
-h2 {
+h3 {
 	text-transform: uppercase;
 	font-size: 1.2em;
+	font-weight: 700;
 }
 
 	.accent-text {
 		font-family: 'EB Garamond', serif;
-		font-size: 60px;
+		
 		
 		border-bottom: 2px solid currentColor;
 		display: inline-block;
@@ -50,7 +51,7 @@ h2 {
 img.hero-img {
 	position: relative;
 	transform: rotate(4deg);
-	width: 470px;
+	width: 90%;
 
 }
 
@@ -59,23 +60,32 @@ img.hero-img {
 	z-index: 1;
 	margin-left: 40px;
 	top: 120px;
-	right: -70px;
+	right: -50px;
 }
 
 /* PRIMARY NAVIGATION =========================== */
 
 nav {
-	text-transform: uppercase;
+	
 	background: none;
 	font-weight: 400;
+	
+
 }
 
-.navbar-nav {
-	display: flex;
+.navbar {
+
+}
+.nav-right {
+	display: inline-flex;
+	flex-direction: row;
 	justify-content: flex-end;
+
+	
 }
 
 .nav-item {
+	text-transform: uppercase;
 	border: 1px solid #252525;
 	border-right: none; /*To prevent overlap between borders*/
 	margin: -1px;
@@ -116,9 +126,16 @@ nav {
 	position: relative;
 }
 
+.logo-main {
+	color: #252525;	
+	font-size: 1em;
+	display: flex;
+	justify-content: flex-start;
+}
+
 .main-header {
 	padding: 40px 20px;
-	margin: 40px ;
+	/*margin: 40px;*/
 	border-top: solid 1px #252525;
 	
 
@@ -155,11 +172,63 @@ nav {
 
 /* CONTENT =========================== */
 
+.row {
+
+}
+
 .content-box {
 	border: solid 1px #252525;
-	padding: 20px;
 	background: #fff;
+	min-height: 250px;
 }
+
+.content-box:hover {
+	background: #DFDFDF;
+}
+
+a.learn-more {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #252525;
+
+}
+
+div.content-copy {
+	padding: 20px 20px 60px 20px;
+	font-size: 14px;
+	line-height: 135.02%;
+
+}
+
+div.learn-more { 
+	border-top:solid 1px #252525;
+	margin: none;
+	padding: 20px;
+}
+
+.learn-section {
+	background: #C7D7DB;
+	padding: 20px 0;
+
+}
+	#copy-text {
+		padding: 0 30px;
+		margin-left: 40px;
+	}
+
+	.field-img {
+		width: 450px;
+		margin-top: 40px;
+		transform: rotate(-4deg);
+	}
+
+	#shocks-lg {
+		position: absolute;
+		z-index: 1;
+		width: 95%;
+		top: 120px;
+		left: -130px;
+	}
 
 
 footer {
@@ -171,6 +240,7 @@ footer {
 	background: #252525;
 
 }
+
 
 
 /* MEDIA QUERIES =========================== */
@@ -188,6 +258,6 @@ footer {
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 .container {
-	    max-width: 2000px;
+	    max-width: 2400px;
 	}
  }
