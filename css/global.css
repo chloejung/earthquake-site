@@ -7,13 +7,36 @@ body {
 	font-family: 'Inter', sans-serif;
 	font-size: 1em;
 	font-weight: 300;
+}
 
+.container {
+	width: 100%;
+	padding: 32px;
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 50px;
+	line-height: 55px;
 	color: #252525;
+	width: 50%;
 }
+
+	.accent-text {
+		font-family: 'EB Garamond', serif;
+		font-size: 60px;
+		
+		border-bottom: 2px solid currentColor;
+		display: inline-block;
+		line-height: 0.85;
+}
+
+	}
+
+.small-header {
+	font-size: 1em;
+}
+
+
 
 /* PRIMARY NAVIGATION */
 
@@ -21,6 +44,10 @@ nav {
 	text-transform: uppercase;
 	background: none;
 	font-weight: 400;
+}
+
+.navbar-nav {
+	float: right;
 }
 
 .nav-item {
@@ -48,10 +75,55 @@ nav {
 
 }
 	.nav-link:hover {
-
 		color: #fff !important;
 
 	}
 
+/* JUMBOTRON */
 
+.jumbotron {
+  	height: 550px;
+	  background: #E7C8AB;
+	 border-radius: 0;
 
+	vertical-align: middle;
+	padding: 32px;
+}
+
+.main-header {
+	padding: 40px 0;
+	margin: 40px 0;
+	border-top: solid 1px #252525;
+	border-bottom: solid 1px #252525;
+}
+
+/* Buttons */
+
+.btn-primary {
+	border-radius: 30px;
+	border:none;
+	background: #252525;
+	color: #fff;
+	text-transform: uppercase;
+
+	padding: 10px 20px;
+	margin-right: 15px;
+}
+
+	.btn-primary:hover {
+		background: #fff;
+		color: #252525;
+
+	}
+
+.btn-float {
+	float: left;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1200px) {
+	.container {
+	    max-width: 2000px;
+	}
+}
