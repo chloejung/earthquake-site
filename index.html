@@ -20,6 +20,7 @@
 
 
   <body>
+  <div id="body-container">
 
       <!-- ================================ Navbar ================================ -->
 
@@ -42,34 +43,50 @@
 
       <!-- Menu -->
 
-            <div class="">
+
               <ul class="navbar-nav nav-right mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Learn</a>
+                  <a class="nav-link" href="#learn-section">Learn</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Prepare</a>
+                  <a class="nav-link" href="#prepare-section">Prepare</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link" href="#">Kits</a>
+                  <a class="nav-link" href="#emerg-kit-section">Kits</a>
                 </li>
 
                 <li class="nav-item  nav-end">
-                  <a class="nav-link" href="#">Help</a>
+                  <a class="nav-link" href="#signup-section">Sign Up</a>
                 </li>
                 
               </ul>
 
-              <!-- Search function? -->
-
-              <!-- <form class="form-inline ">
-                <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Enter search" aria-label="Search">
-                <button class="btn btn-outline-success btn-sm my-2 my-sm-0" type="submit">  Search </button>
-              </form> -->
-            </div>
       </nav>
 
-<div class="container main-header">
+        <!--  ============== MOBILE OVERLAY NAV ============== -->
+
+<!--             <div class="overlay">
+              <div class="mobile">
+                <ul class="mobile-nav">
+                  <li> <a href="#"> Learn </a> </li>
+                  <li> <a href="#"> Prepare </a> </li>
+                  <li> <a href="#"> Kits </a> </li>
+                  <li> <a href="#"> <button class="signup-mobile"> Sign Up </button> </a> </li>
+                </ul>
+
+              </div>
+              
+            </div> --> <!-- end of overlay -->
+            
+            <!--  Hamburger Icon  -->
+                <!-- <div class="nav-icon">
+                  <div> <a class="btn-open" href="#"></a></div>
+                   
+                </div>  -->
+
+      <!-- end ham icon -->
+
+<div class="container main-header" >
       <div class="row">
       <div class="col-12 col-lg-7" > 
         <h1> There is a <span class="accent-text" style="font-size: 60px;">37% chance</span> of a major earthquake in BC in the next fifty years. </h1>
@@ -82,7 +99,7 @@
     </div> <!-- end row -->
 
       <div class="cta-1">
-         <a class="btn btn-primary btn-float" href="#" role="button"> Learn more </a>
+         <a class="btn btn-primary btn-float" href="#" role="button"> Learn more --></a>
         <span class="small-header"> BC’s earthquake awareness <br>and preparedness hub </span>
 
       </div>
@@ -92,7 +109,7 @@
 
 
 <!-- MORE INFORMATION: CARDS -->
-<div class="container">
+<div class="container" id="learn-section">
   <div class="row">
     <div class="col-12 col-lg-4 " >
       <div class="content-box">
@@ -245,91 +262,163 @@
                   <input type="checkbox">
                   <span class="checkmark"></span>
 
-              </li>
+              </label></li>
             <li> <label class="li-container">Water: 4 litres per person
               <input type="checkbox">  
               <span class="checkmark"></span>
-            </li>
+            </label></li>
             <li> 
               <label class="li-container"> Phone charger, battery bank or inverter
                 <input type="checkbox">  
-              <span class="checkmark"></span></li>
+              <span class="checkmark"></span>
+            </label></li>
             <li> 
               <label class="li-container"> Battery-powered or hand-crank radio 
                 <input type="checkbox"> 
-              <span class="checkmark"></span></li>
+              <span class="checkmark"></span>
+            </label></li>
             <li> 
               <label class="li-container"> Battery-powered or hand-crank flashlight  
                 <input type="checkbox">  
-              <span class="checkmark"></span></li>
+              <span class="checkmark"></span>
+            </label></li>
             <li>
               <label class="li-container"> Extra batteries 
                  <input type="checkbox">
-                 <span class="checkmark"></span> </li>
+                 <span class="checkmark"></span> 
+               </label></li>
              <li>
               <label class="li-container"> First-aid kit and medications 
               <input type="checkbox">
-              <span class="checkmark"></span>  </li>
+              <span class="checkmark"></span>  
+            </label></li>
              <li> 
              <label class="li-container"> Personal toiletries and items, such as an extra pair of glasses or contact lenses
               <input type="checkbox"> 
-              <span class="checkmark"></span>  </li>
+              <span class="checkmark"></span>  
+            </label></li>
            <li> 
             <label class="li-container"> Copy of your emergency plan, copies of important documents, such as insurance papers 
             <input type="checkbox"> 
-            <span class="checkmark"></span> </li>
+            <span class="checkmark"></span> </label>
+          </li>
             <li> 
               <label class="li-container"> Cash in small bills 
                 <input type="checkbox">  
-                <span class="checkmark"></span> </li>
+                <span class="checkmark"></span> 
+              </label></li>
              <li> 
               <label class="li-container">  Garbage bags and moist towelettes for personal sanitation 
                 <input type="checkbox">
-              <span class="checkmark"></span></li>
+              <span class="checkmark"></span>
+            </label></li>
              <li> 
               <label class="li-container"> Seasonal clothing, sturdy footwear 
               <input type="checkbox">
             <span class="checkmark"></span>
-          </li>
+          </label></li>
              <li> 
               <label class="li-container"> Emergency blanket
                 <input type="checkbox"> 
                 <span class="checkmark"></span>
-                 </li>
+                 </label></li>
             <li> 
                 <label class="li-container"> Dust masks
                 <input type="checkbox">
                 <span class="checkmark"></span>
-                 </li>
+                 </label></li>
              <li>
               <label class="li-container"> Whistle
               <input type="checkbox">  
               <span class="checkmark"></span>
-               </li>
+               </label></li>
              <li>
               <label class="li-container"> Help/OK Sign: Display the appropriate side outward in your window during a disaster.
                 <input type="checkbox"> 
-                <span class="checkmark"></span>  </li>
+                <span class="checkmark"></span>  
+              </label></li>
           </ul>
         </div>
+
+      </div>
+    </div>
+
+  </div>
+<a href="" class="back-to-top" style="margin-top: 20px">Back to top</a>
+</div>
+</div>
+
+<!-- SIGN UP FORM -->
+
+<div id="signup-section">
+  <div class="container">
+  <div class="row">
+    <div class="col-12 col-lg-5">
+           <h2> Stay <span class="accent-text" style=" font-size: 50px;">up to date</span>.</h2>
+        <p style="margin-top: 40px">Sign up for our monthly newsletter, which includes community updates, local earthquake news and prepration tips.</p>
+      </div>
+       <div class="col-12 col-lg-7">
+          <form>
+            <div class="form-group">
+              <label>Your name</label>
+              <input type="name" class="form-control"  placeholder="Enter first and last name">
+            </div>
+            <div class="form-group">
+              <label>Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit --></button>
+          </form>
       </div>
     </div>
   </div>
-</div>
 </div>
 
 <!-- Footer -->
 
   <footer>
-    <p> &copy; Chloe Jung 2020</p>
+     <div class="container">
+      <div class="row menu-footer">
+        <div class="col-12 col-lg-10">
+             <ul class="navbar-nav nav-right mr-auto">
+                        <li class="footer-nav-item">
+                          <a class="footer-nav-link" href="#learn-section">Learn</a>
+                        </li>
+                        <li class="footer-nav-item">
+                          <a class="footer-nav-link" href="#prepare-section">Prepare</a>
+                        </li>
+                        <li class="footer-nav-item dropdown">
+                          <a class="footer-nav-link" href="#emerg-kit-section">Kits</a>
+                        </li>
+
+                        <li class="footer-nav-item  nav-end">
+                          <a class="footer-nav-link" href="#signup-section">Sign up</a>
+                        </li>
+                        
+                      </ul>
+
+                </div>
+
+            <div class="col-12 col-lg-2">
+                <p> &copy; Chloe Jung 2020</p>
+            </div>
+
+              </div>
+            </div>
+
+             
   </footer>
 
+</div>
  </body>
 
 <!-- jQuery slimbuild, Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <!-- <script src="js/script.js"></script> -->
 
 <!-- Attach Holder.js -->
 <!--     <script src="js/holder.js"></script>
