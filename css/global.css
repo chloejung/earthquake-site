@@ -276,6 +276,44 @@ tr, td {
 	padding: 20px;
 }
 
+#table-main {
+	display: none;
+	
+}
+
+/* Button for collapsible content */
+.collapsible {
+  border: 1px solid #252525;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  margin: 10px 0;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+}
+
+.collapsible:after {
+  content: '\02795'; 
+  font-size: 16px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; 
+}
+
+.collapsible-content {
+padding: 0px 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+
+	}
 
 /* EMERG KIT SECTION =========================== */
 
@@ -538,27 +576,6 @@ footer > a {
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
 	
-	nav ul {
-			display: flex;
-			justify-content: flex-end;
-			margin-top: 2em;
-			opacity: 100%;
-			visibility: visible;
-			}
-
-	
-			.nav-icon {
-				visibility: hidden;
-			}
-
-	.navbar {
-		padding: 10px 50px;
-	}
-
-	.nav-item {
-		padding: 5px 12px;
-		width: 100px;
-	}
 
 	img.hero-img {
 
@@ -595,7 +612,42 @@ footer > a {
  }
 
 /*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+
+	/* Show primary menu, hide mobile menu */
+	nav ul {
+			display: flex;
+			justify-content: flex-end;
+			margin-top: 2em;
+			opacity: 100%;
+			visibility: visible;
+			}
+
+	
+			.nav-icon {
+				visibility: hidden;
+			}
+
+	.navbar {
+		padding: 10px 50px;
+	}
+
+	.nav-item {
+		padding: 5px 12px;
+		width: 100px;
+	} 
+
+/* Show prepare table */
+	#table-main {
+	display: initial;
+	
+	}
+
+	.prepare-collapsible {
+		display: none;
+	}
+
+}
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
