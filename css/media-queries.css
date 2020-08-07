@@ -42,7 +42,9 @@
 	padding-top: 50px;
 }
 
-
+	#logo-main {
+		font-size: 14px;
+	}
 	h1 {
 	font-size: 50px;
 	line-height: 55px;
@@ -67,7 +69,7 @@
 }
 
 
-	nav ul {
+	.nav-main  {
 			display: flex;
 			justify-content: flex-end;
 			margin-top: 2em;

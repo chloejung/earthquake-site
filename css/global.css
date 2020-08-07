@@ -112,7 +112,7 @@ nav {
 
 /* To prevent overlap between borders */
 	.nav-end {
-		border-right: 1px solid #252525;;
+		border-right: 1px solid #252525;
 	}
 
 .nav-link {
@@ -143,8 +143,9 @@ nav {
 
 #logo-main {
 	color: #252525;	
-	font-size: 12px;
+	font-size: 10px;
 	font-weight: 700;
+
 }
 
 .main-header {
@@ -428,19 +429,34 @@ footer {
 
 }
 
-footer > a {
+.menu-footer {
+	margin-bottom: 20px;
+}
+
+footer a {
 	color: #fff;
-	border: 1px solid #fff;
+	text-transform: uppercase;
+	
+}
+
+footer a:hover {
+	color: #E7C8AB;
 }
 
 
 .footer-nav-item  {
 	padding: 10px;
+	border: 1px solid #fff;
+	border-right: none; /*To prevent overlap between borders*/
 }
 
 .footer-nav-link {
 	color: #fff;
 }
+
+	.footer-nav-end {
+		border-right: 1px solid #fff;
+	}
 
 	 /* ============================ Basic hamburger menu using CSS ============================ */
 
@@ -556,7 +572,7 @@ footer > a {
 				text-align: left;
 			}
 
-			nav ul {
+			.nav-main {
 				opacity: 0;
 				visibility: hidden;
 			}
