@@ -1,0 +1,138 @@
+/* MEDIA QUERIES =========================== */
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+
+	.main-header {
+	padding: 40px 20px;
+
+}
+	.container {
+	width: 90%;
+	padding: 44px;
+	padding-top: 50px;
+}
+
+	.accent-text {
+		border-bottom: 2px solid currentColor;
+		text-decoration: none;
+	}
+
+.content-box-kit {
+	border: solid 1px #252525;
+	margin-left: 30px;
+	
+}
+
+
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+	.container {
+	width: 90%;
+	padding: 24px;
+	padding-top: 50px;
+}
+
+
+	h1 {
+	font-size: 50px;
+	line-height: 55px;
+	margin-top: 50px;
+	}
+
+
+		.btn-float {
+			float: left;
+			margin-bottom: 0px;
+		}
+
+
+
+	/* Show primary menu, hide mobile menu */
+
+	.nav-right {
+	display: initial;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: flex-end;	
+}
+
+
+	nav ul {
+			display: flex;
+			justify-content: flex-end;
+			margin-top: 2em;
+			opacity: 100%;
+			visibility: visible;
+			}
+
+	
+			.nav-icon {
+				visibility: hidden;
+			}
+
+	.navbar {
+		padding: 10px 50px;
+	}
+
+	.nav-item {
+		padding: 5px 12px;
+		width: 100px;
+	} 
+
+		.facts-section-p {
+	padding: 15px;
+	border-top: solid 1px #252525;
+	font-size: 46px;
+
+}
+
+	.fact {
+	font-weight: 700;
+	font-size: 50px;
+}
+
+
+
+/* Show prepare table */
+	#table-main {
+	display: initial;
+	
+	}
+
+	.prepare-collapsible {
+		display: none;
+	}
+
+
+	#copy-text {
+		margin-top: 20px;
+		margin-left: 40px;
+	}
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+.container {
+	    max-width: 2400px;
+	}
+
+
+	#shocks-lg {
+
+		width: 250px;
+
+	}
+
+
+ }
