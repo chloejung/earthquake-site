@@ -88,22 +88,13 @@
 
 	.nav-item {
 		padding: 5px 12px;
-		width: 100px;
+		width: 120px;
 	} 
 
-		.facts-section-p {
-	padding: 15px;
-	border-top: solid 1px #252525;
-	font-size: 46px;
+	.field-img {
+		width: 400px;
 
-}
-
-	.fact {
-	font-weight: 700;
-	font-size: 50px;
-}
-
-
+	}
 
 /* Show prepare table */
 	#table-main {
@@ -137,5 +128,26 @@
 	#shocks-lg {
 		width: 250px;
 	}
+
+
+	/* Facts section */
+
+	.facts-section-p {
+	padding: 15px;
+	border-top: solid 1px #252525;
+	font-size: 40px;
+
+}
+
+	.fact {
+	font-weight: 700;
+	font-size: 45px;
+}
+
+	.asterisk {
+	width: 50px;
+	vertical-align: middle;
+	}
+
 
  }
