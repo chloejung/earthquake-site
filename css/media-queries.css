@@ -123,18 +123,19 @@
 
 }
 
+.footer-nav-item {
+	margin-right: 10px;
+}
+
+
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 .container {
 	    max-width: 2400px;
 	}
 
-
 	#shocks-lg {
-
 		width: 250px;
-
 	}
-
 
  }
