@@ -33,3 +33,14 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
+// Alert for if someone signs up
+
+document.getElementById("sorryMsg").addEventListener("click", sorryMsg() );
+
+function sorryMsg() {
+  var txt;
+    txt = "Sorry! This site was built for learning purposes and this mailing list is not real :).";
+ 
+  document.getElementById("sorry-msg").innerHTML = txt;
+}

@@ -34,7 +34,7 @@
           <!-- LOGO -->
 
           <a class="navbar-brand" href="#">
-            <img src="img/logo-earthquake.svg" width="50" alt="the big one logo"> 
+            <img src="img/logo-earthquake.svg" width="50" alt="bc earthquake awareness logo"> 
             <span id="logo-main"> BC's Earthquake Awareness Hub</span>
           </a>
           
@@ -91,7 +91,7 @@
         <h1> There is a <span class="accent-text" style="font-size: 50px;">37% chance</span> of a major earthquake in BC in the next fifty years. </h1>
       </div>
       <figure class="col-12 col-lg-5">  
-          <img class="hero-img" src="img/quake.jpg" alt="earthquake">
+          <img class="hero-img" src="img/quake.jpg" alt="earthquake damage">
           <img id="shocks" src="img/shocks.png">
         </figure>
     
@@ -162,7 +162,7 @@
       <h2> BC is a seismically active region where over <span class="accent-text" style=" font-size:50px;">3,000 small quakes</span> are recorded each year.</h2>
 
         <figure class="col-12 col-lg-5">  
-          <img class="field-img rotate-img" src="img/field2.jpg" alt="earthquake">
+          <img class="field-img rotate-img" src="img/field2.jpg" alt="field aerial">
           <img id="shocks-lg" src="img/shocks-lg.svg">
         </figure>
     </div>
@@ -182,10 +182,10 @@
         <p><span class="fact">200-300 years</span> estimated between each <span class="accent-text" style="font-size: 45px">9.0 quake</span> event </p>
       </div>
       <div class="facts-section-p">
-        <p>The last year that a <span class="accent-text" style="font-size: 45px">9.0 quake</span> struck our coast: <span class="fact">1700</span> <img src="img/asterisk.svg" class="asterisk"> </p>
+        <p>The last year that a <span class="accent-text" style="font-size: 45px">9.0 quake</span> struck our coast: <span class="fact">1700</span> <img src="img/asterisk.svg" class="asterisk" alt="asterisk icon"> </p>
       </div>
       <div class="facts-section-p">
-        <p> <span class="fact">320 years</span> <img src="img/asterisk.svg" class="asterisk"> <img src="img/asterisk.svg" class="asterisk"> <img src="img/asterisk.svg" class="asterisk"> since the last <span class="accent-text" style="font-size: 45px">9.0 earthquake</span> in BC </p>
+        <p> <span class="fact">320 years</span> <img src="img/asterisk.svg" class="asterisk" alt="asterisk icon"> <img src="img/asterisk.svg" alt="asterisk icon" class="asterisk"> <img src="img/asterisk.svg" class="asterisk" alt="asterisk icon"> since the last <span class="accent-text" style="font-size: 45px">9.0 earthquake</span> in BC </p>
       </div>
   </div>
   <a href="" class="back-to-top">Back to top</a>
@@ -202,7 +202,7 @@
       <table id="table-main">
           <tr>
             <td><h3> Make a family plan</h3>
-             <img src="img/family.svg" width="70"></td>
+             <img src="img/family.svg" width="70" alt="family icon"></td>
             <td> 
               <ul> 
                 <li> Make a master list of family members, photos of each member, and emergency numbers and put it in a document.  </li>
@@ -214,7 +214,7 @@
           </tr>
           <tr>
             <td><h3> Decide on a meeting place</h3>
-             <img src="img/meeting.svg" width="70"></td>
+             <img src="img/meeting.svg" width="70" alt="meeting place icon"></td>
             <td>
               <ul> 
                 <li>Decide on where you will meet in advance. Select two meeting places where you and your family can get back together if you get separated: 1) one close to your home, and 2) one that is a little further away. Some common options are a community centre, school or library. </li>
@@ -226,7 +226,7 @@
           </tr>
           <tr>
             <td><h3> Know your home</h3>
-              <img src="img/home.svg" width="70"></td>
+              <img src="img/home.svg" width="70" alt="home icon"></td>
             <td><ul> 
                 <li>Identify objects in your home that might be toppable or dangerous during an earthquake and secure them to the wall or a stable object. </li>
                <li> Make sure everyone knows where your electrical panel, fire extinguisher, and water and gas valves are located and how to use them or turn them off. </li>
@@ -412,7 +412,8 @@
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
-            <button type="submit" class="btn btn-primary">Submit --></button>
+            <a href="#signup-section"><button class="btn btn-primary" onclick="sorryMsg()">Submit --></button></a>
+            <p id="sorry-msg"></p>
           </form>
       </div>
     </div>
