@@ -102,8 +102,8 @@
             <div class="col-12 col-lg-2" >
              <a href="#prepare-section" role="button"> <button  class="btn btn-primary btn-float" > Learn more --></button></a>
            </div>
-            <div class="col-12 col-lg-10" >
-            <span class="small-header"> Welcome to BC’s earthquake<br> awareness and preparedness hub </span>
+            <div class="col-12 col-lg-10 ">
+              <div class="small-header"> Welcome to BC’s earthquake awareness and preparedness hub</div>
           </div>
         </div>
       </div>
@@ -130,7 +130,6 @@
       <div class="content-box">
         <div class="content-copy">
           <h3> Prepare your household </h3>
-       
             <p>Prepare furniture and items in your residence, and make a family game plan with meeting points and methods of contact.</p>
         
         </div>
@@ -146,7 +145,7 @@
               <p>Prepare an easy-to-grab bag with all the supplies you will need in an earthquake, including food, drink and clothing.</p>
           </div>
            <div class="learn-more a-bold"> 
-             <a href="#emerg-kit-section" class="learn-more-a "> Learn more </a>
+             <a href="#emerg-kit-section" class="learn-more-a"> Learn more </a>
           </div>
         </div>  
     </div>
@@ -188,7 +187,7 @@
         <p> <span class="fact">320 years</span> <img src="img/asterisk.svg" class="asterisk" alt="asterisk icon"> <img src="img/asterisk.svg" alt="asterisk icon" class="asterisk"> <img src="img/asterisk.svg" class="asterisk" alt="asterisk icon"> since the last <span class="accent-text" style="font-size: 45px">9.0 earthquake</span> in BC </p>
       </div>
   </div>
-  <a href="" class="back-to-top">Back to top</a>
+  <a href="#body-container" class="back-to-top">Back to top</a>
 </div><!--  end container -->
 </div>
 
@@ -388,7 +387,7 @@
     </div>
 
   </div>
-<a href="" class="back-to-top" style="margin-top: 20px">Back to top</a>
+<a href="#body-container" class="back-to-top" style="margin-top: 20px">Back to top</a>
 </div>
 </div>
 
@@ -444,14 +443,14 @@
                       </ul>
                 <p style="color: #ccc; font-size: 8px">1 “320 years since the ‘Big One’ doesn’t mean it’s overdue: B.C. professor”, Terrance Standard, 2019
 
-                Sources cited:  GetPrepared, Government of BC, City of Vancouver, ShakeOut, BC Quake, Structural Engineers Association of B.C. </p>
+                Sources cited:Ge tPrepared, Government of BC, City of Vancouver, ShakeOut, BC Quake, Structural Engineers Association of B.C. </p>
             </div>
                 
 
             <div class="col-12 col-lg-2">
-                <p> &copy; Chloe Jung 2020</p>
+                <p style="text-align: right"> &copy; Chloe Jung 2020</p>
                 <br>
-                <a href="#" class="back-to-top" style="margin-top: 20px; color: #fff">Back to top</a>
+                <a href="#body-container" class="back-to-top" style="margin-top: 20px; color: #fff">Back to top</a>
               </div>
             </div>
             </div>
@@ -469,6 +468,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <script src="js/script.js"></script>
+
+    <!-- On page scroll using Jquery supported by all browsers and devices -->
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
 
 <!-- Attach Holder.js -->
 <!--     <script src="js/holder.js"></script>

@@ -32,6 +32,13 @@
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
 
+		.small-header {
+			font-size: 1em;
+			margin-left: 40px;
+			width: 240px;
+
+		}
+
 		.container {
 		width: 90%;
 		padding: 24px;
@@ -122,6 +129,9 @@
 		    max-width: 2400px;
 		}
 
+		.small-header {
+			margin-left: 10px;
+		}
 		#shocks-lg {
 			width: 250px;
 		}
