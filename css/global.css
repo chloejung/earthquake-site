@@ -340,6 +340,11 @@ nav {
 	display: block;
 }
 
+	.learn-more:hover {
+		font-style: italic;
+		text-decoration: none;
+	}
+
 .learn-section {
 	background: #C7D7DB;
 	padding: 20px 0;
